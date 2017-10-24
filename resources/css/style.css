@@ -280,6 +280,20 @@ header {
   display: none;
 }
 
+/* ------------ MOBILE NAVIGATION ------------- */
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon {
+  font-size: 200%;
+  color: #FFF;
+}
+
 /* ----------------------------------------------- */
 /* FEATURES */
 /* ----------------------------------------------- */
