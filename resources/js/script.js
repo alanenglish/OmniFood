@@ -118,9 +118,24 @@ $(document).ready(function() {
         icon.addClass('ion-navicon-round');
         icon.removeClass('ion-close-round');
       }
+    });
 
+    // MAPS //
 
-      ion-close-round
+    let map = new GMaps({
+      div: '.map',
+      lat: 41.9254048,
+      lng: -87.6482463,
+      zoom: 15
+    });
+
+    map.addMarker({
+      lat: 41.9254048,
+      lng: -87.6482463,
+      title: 'Chicago',
+      infoWindow: {
+        content: '<p>Our Chicago HQ</p>'
+      }
     });
 
 });
